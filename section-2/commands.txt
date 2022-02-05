@@ -1,0 +1,5 @@
+docker run redis
+docker ps
+docker exec -it e1ad839c3579 redis-cli
+set myvalue 5
+get myvalue
