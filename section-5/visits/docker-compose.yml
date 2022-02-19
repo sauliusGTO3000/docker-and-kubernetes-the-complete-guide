@@ -1,0 +1,13 @@
+version: '3'
+services:
+  redis-server:
+#    restart: unless-stopped
+    #    name of the image to pull
+    image: 'redis'
+  node-app:
+#    restart: unless-stopped
+    #    instruction to build the image from same directory this file is in
+    build: .
+    ports:
+#      localport:docker machine port
+      - '4001:8081'
