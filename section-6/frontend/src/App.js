@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-            up to date
+            up to date docker compose file
         </a>
       </header>
     </div>
