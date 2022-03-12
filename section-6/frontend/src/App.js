@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-            up to date docker compose file
+            learn react now
         </a>
       </header>
     </div>
